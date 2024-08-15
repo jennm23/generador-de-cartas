@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card { 
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: auto;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+}
+.number {
+    font-size: 100px;
+    align-self: center;
+}
+.top {
+    font-size: 150px;
+    align-self: flex-start;
+}
+.bottom {
+    font-size: 150px;
+    align-self: end;
+}
+.spade::before {
+    content: "♠";
+    color: black;
+}
+
+.club::before {
+    content: "♣";
+    color: black;
+}
+
+.heart::before {
+    content: "♥";
+    color: red;
+}
+
+.diamond::before {
+    content: "♦";
+    color: red;
+}
